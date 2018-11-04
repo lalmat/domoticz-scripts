@@ -20,4 +20,4 @@ $weather = $reply->result[0];
 $forecast = Forecast::get_forecast("fr", $wind->Direction, $weather->Barometer);
 
 // Set Forecast in Domoticz
-$dz->set($idx->result, $forecast);
+$dz->set($idx->result, $forecast[0]);

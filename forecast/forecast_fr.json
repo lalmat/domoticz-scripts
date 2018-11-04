@@ -2,130 +2,334 @@
   "fr": [
     [
       [
-        "Beau ou assez beau. Journées chaudes, nuits fraîches; gelées matinales.",
-        "Ondées ou giboulées. Températures fraîches.",
-        "Ondées ou giboulées. Températures fraîches.",
-        "Pluie ou neige avec vent. Températures basses."
+        [
+          "Beau ou assez beau. Journées chaudes, nuits fraîches; gelées matinales.",
+          "et ça c'est plutôt cool !"
+        ],
+        [
+          "Ondées ou giboulées. Températures fraîches.",
+          "mais on va rester positif d'accord ?"
+        ],
+        [
+          "Ondées ou giboulées. Températures fraîches.",
+          "et il va falloir faire avec..."
+        ],
+        [
+          "Pluie ou neige avec vent. Températures basses.",
+          "vivement l'été quoi."
+        ]
       ],
       [
-        "Beau ou assez beau. Journées douces ou assez chaudes, nuits fraîches; gelées possibles.",
-        "Giboulées. Journées fraîches, nuits froides; gelées à craindre.",
-        "Ondées ou giboulées avec vent. Temps frais.",
-        "Ondées, giboulées ou averses orageuses; neige en montagne. Vent faible ou modéré. Températures basses."
+        [
+          "Beau ou assez beau. Journées douces ou assez chaudes, nuits fraîches; gelées possibles.",
+          "si c'est pas cool ça hein ?"
+        ],
+        [
+          "Giboulées. Journées fraîches, nuits froides; gelées à craindre.",
+          "bref on va se cailler sec."
+        ],
+        [
+          "Ondées ou giboulées avec vent. Temps frais.",
+          "tu le sens venir le temps de merde ?"
+        ],
+        [
+          "Ondées, giboulées ou averses orageuses; neige en montagne. Vent faible ou modéré. Températures basses.",
+          "perso, moi je m'en fout, je bouge pas ici."
+        ]
       ],
       [
-        "Beau ou assez beau. Journées chaudes, nuits fraîches.",
-        "Assez beau ou ondées orageuses. Journées chaudes, nuits un peu fraîches.",
-        "Pluie ou averses avec un peu de vent. Temps doux.",
-        "Pluie et vent assez fort. Températures douces."
+        [
+          "Beau ou assez beau. Journées chaudes, nuits fraîches.",
+          "perso moi ça me colle une péche d'enfer."
+        ],
+        [
+          "Assez beau ou ondées orageuses. Journées chaudes, nuits un peu fraîches.",
+          "c'est déjà un bon début non ?"
+        ],
+        [
+          "Pluie ou averses avec un peu de vent. Temps doux.",
+          "bon... ça va arroser le jardin au moins."
+        ],
+        [
+          "Pluie et vent assez fort. Températures douces.",
+          "donc prévois ton parapluie et ton ciré."
+        ]
       ],
       [
-        "Beau ou assez beau.",
-        "Ondées ou averses. Températures douces.",
-        "Pluie et vent assez fort. Temps doux.",
-        "Pluie et vent assez fort. Températures douces."
+        ["Beau ou assez beau.", "ce qui est cool ou assez cool !"],
+        ["Ondées ou averses. Températures douces.", "bref y pleut..."],
+        [
+          "Pluie et vent assez fort. Temps doux.",
+          "beh oui c'est pas encore l'été."
+        ],
+        ["Pluie et vent assez fort. Températures douces.", "pas de chance..."]
       ],
       [
-        "Beau. Assez chaud dans la journée, frais la nuit; gelées possibles au petit matin.",
-        "Nuageux avec ondées possibles; giboulées en montagne. Temps frais.",
-        "Ondées en plaine, giboulées en montagne. Temps frais.",
-        "Pluie en plaine, neige en montagne. Temps frais."
+        [
+          "Beau. Assez chaud dans la journée, frais la nuit; gelées possibles au petit matin.",
+          "humm... ça sent déjà l'été !"
+        ],
+        [
+          "Nuageux avec ondées possibles; giboulées en montagne. Temps frais.",
+          "alors prends ton parapluie !"
+        ],
+        [
+          "Ondées en plaine, giboulées en montagne. Temps frais.",
+          "si c'est pas dommage quand même..."
+        ],
+        ["Pluie en plaine, neige en montagne. Temps frais.", "OMG le seum !"]
       ]
     ],
     [
       [
-        "Beau ou assez beau. Journées chaudes, nuits fraîches.",
-        "Assez beau, ondées possibles. Assez chaud.",
-        "Ondées ou averses orageuses. Températures douces.",
-        "Pluie et vent. Températures douces."
+        [
+          "Beau ou assez beau. Journées chaudes, nuits fraîches.",
+          "c'est l'été quoi."
+        ],
+        [
+          "Assez beau, ondées possibles. Assez chaud.",
+          "mais ça devrait se maintenir j'suis sûre"
+        ],
+        [
+          "Ondées ou averses orageuses. Températures douces.",
+          "aller... de la flotte... c'est moche quand même."
+        ],
+        [
+          "Pluie et vent. Températures douces.",
+          "ouai... mais non, te fie pas à la saison"
+        ]
       ],
       [
-        "Beau. Journées chaudes, nuits fraîches.",
-        "Beau ou assez beau avec parfois des averses orageuses. Chaud ou assez chaud le jour, nuits fraîches.",
-        "Pluies orageuses. Températures douces.",
-        "Pluies orageuses avec un peu de vent. Temps lourd et humide."
+        ["Beau. Journées chaudes, nuits fraîches.", "et bim! la classe non ?"],
+        [
+          "Beau ou assez beau avec parfois des averses orageuses. Chaud ou assez chaud le jour, nuits fraîches.",
+          "ca t'aide vachement ça non ?"
+        ],
+        [
+          "Pluies orageuses. Températures douces.",
+          "y s'fout d'not gueule le baromètre m'est d'avis..."
+        ],
+        [
+          "Pluies orageuses avec un peu de vent. Temps lourd et humide.",
+          "bienvenue en Amazonie !"
+        ]
       ],
       [
-        "Beau, mais orages possibles. Très chaud le jour, chaud la nuit.",
-        "Beau, avec possibilité d'averses orageuses. Assez chaud.",
-        "Temps lourd et orages avec averses. Chaud.",
-        "Averses orageuses et vents violents. Chaud et humide."
+        [
+          "Beau, mais orages possibles. Très chaud le jour, chaud la nuit.",
+          "un conseil, va prendre une bière tout de suite."
+        ],
+        [
+          "Beau, avec possibilité d'averses orageuses. Assez chaud.",
+          "hummm, possibilité... personnellement je préfère rester optimiste."
+        ],
+        [
+          "Temps lourd et orages avec averses. Chaud.",
+          "qui a dit que l'été était agréable déjà ?"
+        ],
+        [
+          "Averses orageuses et vents violents. Chaud et humide.",
+          "je résume : un gros temps de merde."
+        ]
       ],
       [
-        "Beau ou très beau. Chaud ou très chaud.",
-        "Beau, ondées orageuses possibles. Assez chaud.",
-        "Temps lourd et orages possibles. Assez chaud.",
-        "Orages et averses orageuses. Assez chaud."
+        [
+          "Beau ou très beau. Chaud ou très chaud.",
+          "cool ou très cool, sort en slip !"
+        ],
+        [
+          "Beau, ondées orageuses possibles. Assez chaud.",
+          "mais ça va le faire j'suis sûre."
+        ],
+        [
+          "Temps lourd et orages possibles. Assez chaud.",
+          "prends un petit manteau du coup, ca peut servir."
+        ],
+        [
+          "Orages et averses orageuses. Assez chaud.",
+          "et bim, revoilà la flotte."
+        ]
       ],
       [
-        "Beau. Chaud dans la journée, assez frais la nuit.",
-        "Assez beau, mais ondées possibles en montagne. Températures douces.",
-        "Ondées et averses avec un peu de vent. Températures douces.",
-        "Pluie à tendance orageuse avec vent. Doux et humide."
+        [
+          "Beau. Chaud dans la journée, assez frais la nuit.",
+          "un vrai temps de rêve."
+        ],
+        [
+          "Assez beau, mais ondées possibles en montagne. Températures douces.",
+          "ca va tenir, j'ai confiance"
+        ],
+        [
+          "Ondées et averses avec un peu de vent. Températures douces.",
+          "prends ton parapluie, ca va te servir."
+        ],
+        [
+          "Pluie à tendance orageuse avec vent. Doux et humide.",
+          "lol, 'doux et humide' ça te rappelle personne ?"
+        ]
       ]
     ],
     [
       [
-        "Beau ou assez beau. Chaud le jour. Gelées à craindre la nuit.",
-        "Ondées locales. Températures fraîches.",
-        "Averses. Temps frais.",
-        "Averses de pluie ou de neige. Temps froid et températures en baisses."
+        [
+          "Beau ou assez beau. Chaud le jour. Gelées à craindre la nuit.",
+          "ah ! L'été fait du rab !"
+        ],
+        ["Ondées locales. Températures fraîches.", "prends ton écharpe."],
+        ["Averses. Temps frais.", "y va faire frisquette..."],
+        [
+          "Averses de pluie ou de neige. Temps froid et températures en baisses.",
+          "bon... ok... courage !"
+        ]
       ],
       [
-        "Beau ou assez beau. Chaleur modérée. Gelées à craindre.",
-        "Assez beau, avec possibilité d'ondées. Frais le jour et gelées locales.",
-        "Ondées en plaine, giboulées en montagne. Temps frais.",
-        "Averses orageuses et vent modéré. Temps frais."
+        [
+          "Beau ou assez beau. Chaleur modérée. Gelées à craindre.",
+          "va ptet failloir gratter la voiture..."
+        ],
+        [
+          "Assez beau, avec possibilité d'ondées. Frais le jour et gelées locales.",
+          "c'est l'automne quoi."
+        ],
+        [
+          "Ondées en plaine, giboulées en montagne. Temps frais.",
+          "vive le feu de bois hein !"
+        ],
+        ["Averses orageuses et vent modéré. Temps frais.", "brrrrrr..."]
       ],
       [
-        "Beau ou assez beau. Assez chaud le jour, frais la nuit; gelées possibles.",
-        "Nuages modérés; ondées et éclaircies. Assez chaud.",
-        "Nuageux, avec pluies éparses et vent modéré. Temps doux.",
-        "Pluie et parfois averses orageuses avec vents forts. Températures douces."
+        [
+          "Beau ou assez beau. Assez chaud le jour, frais la nuit; gelées possibles.",
+          "c'est presque l'été !"
+        ],
+        [
+          "Nuages modérés; ondées et éclaircies. Assez chaud.",
+          "une journée pleine de rebondissement !"
+        ],
+        [
+          "Nuageux, avec pluies éparses et vent modéré. Temps doux.",
+          "y va fait gris mais dans l'ensemble ça devrait le faire."
+        ],
+        [
+          "Pluie et parfois averses orageuses avec vents forts. Températures douces.",
+          "fait attention sur la route !"
+        ]
       ],
       [
-        "Beau. Chaud ou assez chaud le jour, nuits fraîches.",
-        "Ondées locales et vents faibles. Températures douces.",
-        "Pluie possible, vent modéré. Températures douces.",
-        "Pluie et vent fort. Temps doux et humide."
+        [
+          "Beau. Chaud ou assez chaud le jour, nuits fraîches.",
+          "et bim ! Voilà déjà une bonne nouvelle"
+        ],
+        [
+          "Ondées locales et vents faibles. Températures douces.",
+          "c'est plutôt pas mal pour la saison."
+        ],
+        [
+          "Pluie possible, vent modéré. Températures douces.",
+          "ce qui est bien mais pas top."
+        ],
+        [
+          "Pluie et vent fort. Temps doux et humide.",
+          "j'avoue, ça vend pas du rêve..."
+        ]
       ],
       [
-        "Beau ou modérément nuageux. Chaleur modérée le jour, nuits fraîches; gelées à craindre.",
-        "Assez beau, avec ondées locales et giboulées en montagne. Températures douces, parfois un peu fraîches.",
-        "Ondées en plaine, giboulées en montagne; vent faible. Temps frais.",
-        "Fortes pluies et vent fort, bourrasques de neige en montagne. Temps frais."
+        [
+          "Beau ou modérément nuageux. Chaleur modérée le jour, nuits fraîches; gelées à craindre.",
+          "bref c'est pas chaud tout ça"
+        ],
+        [
+          "Assez beau, avec ondées locales et giboulées en montagne. Températures douces, parfois un peu fraîches.",
+          "voilà... encore une prévion qui veut tout dire..."
+        ],
+        [
+          "Ondées en plaine, giboulées en montagne; vent faible. Temps frais.",
+          "un peu de pluie donc..."
+        ],
+        [
+          "Fortes pluies et vent fort, bourrasques de neige en montagne. Temps frais.",
+          "ho putain le temps de merde... désolé..."
+        ]
       ]
     ],
     [
       [
-        "Beau, avec tendance à la brume et au brouillard. Températures fraîches.",
-        "Assez beau. Giboulées en montagne. Froid.",
-        "Neige ou giboulées. Froid.",
-        "Neige et vent parfois violent. Froid."
+        [
+          "Beau, avec tendance à la brume et au brouillard. Températures fraîches.",
+          "mais si, ça va se lever"
+        ],
+        [
+          "Assez beau. Giboulées en montagne. Froid.",
+          "plutôt normal pour la saison"
+        ],
+        ["Neige ou giboulées. Froid.", "sérieux ?! Sinon ça va ?"],
+        ["Neige et vent parfois violent. Froid.", "non. Ne dis rien. Oublie."]
       ],
       [
-        "Beau ou assez beau, un peu brumeux. Journées froides et gelées nocturnes.",
-        "Temps brumeux; giboulées ou neige. Froid.",
-        "Neige ou giboulées. Froid.",
-        "Giboulées, neige possible; vent modéré à assez fort. Froid."
+        [
+          "Beau ou assez beau, un peu brumeux. Journées froides et gelées nocturnes.",
+          "l'air va être frais mais il va faire beau, trop cool."
+        ],
+        [
+          "Temps brumeux; giboulées ou neige. Froid.",
+          "attention si tu prends la route !"
+        ],
+        ["Neige ou giboulées. Froid.", "au fait ? t'as trouvé la luge ?"],
+        [
+          "Giboulées, neige possible; vent modéré à assez fort. Froid.",
+          "aller ! Encore une journée pourrie côté météo."
+        ]
       ],
       [
-        "Beau ou assez beau, parfois brumeux. Températures modérées le jour, nuits froides; gelées possibles.",
-        "Assez beau à modérément nuageux, avec ondées possibles. Températures douces.",
-        "Pluie possible, avec vent fort. Températures douces.",
-        "Pluie ou neige fondue, avec vents forts. Temps assez froid, parfois doux."
+        [
+          "Beau ou assez beau, parfois brumeux. Températures modérées le jour, nuits froides; gelées possibles.",
+          "en voilà une belle journée !"
+        ],
+        [
+          "Assez beau à modérément nuageux, avec ondées possibles. Températures douces.",
+          "une météo de saison pourrait-on dire."
+        ],
+        [
+          "Pluie possible, avec vent fort. Températures douces.",
+          "arf, c'est pas génial génial hein..."
+        ],
+        [
+          "Pluie ou neige fondue, avec vents forts. Temps assez froid, parfois doux.",
+          "ca va souffler fort, donc ça va passer vite !"
+        ]
       ],
       [
-        "Beau ou assez beau, brumes. Températures douces ou assez douces le jour; gelées nocturnes.",
-        "Quelques nuages, ondées. Températures fraîches.",
-        "Pluie ou neige avec vent. Températures douces.",
-        "Pluie ou neige fondue, avec vent violent. Températures douces."
+        [
+          "Beau ou assez beau, brumes. Températures douces ou assez douces le jour; gelées nocturnes.",
+          "une belle journée qui s'annonce"
+        ],
+        [
+          "Quelques nuages, ondées. Températures fraîches.",
+          "rien de grave en somme."
+        ],
+        [
+          "Pluie ou neige avec vent. Températures douces.",
+          "ah beh oui, c'est l'hivers en même temps..."
+        ],
+        [
+          "Pluie ou neige fondue, avec vent violent. Températures douces.",
+          "accroches-toi à tes bretelles Dr. Jones."
+        ]
       ],
       [
-        "Beau et un peu brumeux. Températures modérées le jour; fortes gelées la nuit.",
-        "Modérément nuageux, giboulées en montagne. Froid.",
-        "Giboulées ou neige. Froid.",
-        "Pluie et bourrasques, ou neige. Froid."
+        [
+          "Beau et un peu brumeux. Températures modérées le jour; fortes gelées la nuit.",
+          "une belle journée d'hiver !"
+        ],
+        [
+          "Modérément nuageux, giboulées en montagne. Froid.",
+          "eh ! Pas de pluie c'est déjà ça non ?"
+        ],
+        ["Giboulées ou neige. Froid.", "ouuuuh... un soir à raclette tout ça."],
+        [
+          "Pluie et bourrasques, ou neige. Froid.",
+          "dans tous les cas, ca caille..."
+        ]
       ]
     ]
   ]

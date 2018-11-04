@@ -21,6 +21,8 @@ $reply   = json_decode($dz->value($forecast_idx->weather));
 $weather = $reply->result[0];
 //print_r($weather);
 
+$forecast = Forecast::get_forecast("fr", $wind->Direction, $weather->Barometer);
+
 $msgTemplate = file_get_contents(__DIR__."/message.tpl.html");
 $tpl = str_replace("{{prenom}}", "Mathieu", $msgTemplate);
 $tpl = str_replace("{{full_date}}", NewDay::getFullDate_FR(), $tpl);
@@ -28,7 +30,8 @@ $tpl = str_replace("{{saints}}", NewDay::getSaintMsg_FR(), $tpl);
 $tpl = str_replace("{{sunrise}}", $reply->Sunrise, $tpl);
 $tpl = str_replace("{{sunset}}", $reply->Sunset, $tpl);
 $tpl = str_replace("{{daylength}}", $reply->DayLength, $tpl);
-$tpl = str_replace("{{forecast}}", Forecast::get_forecast("fr", $wind->Direction, $weather->Barometer), $tpl);
+$tpl = str_replace("{{forecast}}", $forecast[0] , $tpl);
+$tpl = str_replace("{{forecast_mood}}", $forecast[1] , $tpl);
 $tpl = str_replace("{{temperature}}", $weather->Temp, $tpl);
 $tpl = str_replace("{{wind}}", round($wind->Speed*3600/1000), $tpl);
 $tpl = str_replace("{{wind_orient}}", $wind->DirectionStr, $tpl);
