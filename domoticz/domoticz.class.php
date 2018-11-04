@@ -5,7 +5,7 @@ class Domoticz {
   private $idx      = null;
 
   function __construct() {
-    $config = json_decode(file_get_contents(__DIR__."/domoticz.config.json"));
+    $config = json_decode(file_get_contents(__DIR__."/../config/domoticz.config.json"));
     $this->endpoint   = $config->domoticz->api;
     $this->token      = $config->domoticz->token;
     $this->scriptsIdx = $config->domoticz->scripts_idx;
@@ -15,7 +15,7 @@ class Domoticz {
   }
 
   public function config($script) {
-    return $this->idx->$script;
+    return $this->scriptsIdx->$script;
   }
 
   public function toggleLight($idx, $value) {

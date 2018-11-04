@@ -20,5 +20,13 @@
     "port": "",
     "user": "",
     "pass": ""
-  }
+  },
+  "users": [
+    {
+      "firstname": "",
+      "lastname": "",
+      "birth": "",
+      "email": "lallemand.mathieu@gmail.com"
+    }
+  ]
 }
