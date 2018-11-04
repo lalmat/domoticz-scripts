@@ -1,0 +1,132 @@
+{
+  "fr": [
+    [
+      [
+        "Beau ou assez beau. Journées chaudes, nuits fraîches; gelées matinales.",
+        "Ondées ou giboulées. Températures fraîches.",
+        "Ondées ou giboulées. Températures fraîches.",
+        "Pluie ou neige avec vent. Températures basses."
+      ],
+      [
+        "Beau ou assez beau. Journées douces ou assez chaudes, nuits fraîches; gelées possibles.",
+        "Giboulées. Journées fraîches, nuits froides; gelées à craindre.",
+        "Ondées ou giboulées avec vent. Temps frais.",
+        "Ondées, giboulées ou averses orageuses; neige en montagne. Vent faible ou modéré. Températures basses."
+      ],
+      [
+        "Beau ou assez beau. Journées chaudes, nuits fraîches.",
+        "Assez beau ou ondées orageuses. Journées chaudes, nuits un peu fraîches.",
+        "Pluie ou averses avec un peu de vent. Temps doux.",
+        "Pluie et vent assez fort. Températures douces."
+      ],
+      [
+        "Beau ou assez beau.",
+        "Ondées ou averses. Températures douces.",
+        "Pluie et vent assez fort. Temps doux.",
+        "Pluie et vent assez fort. Températures douces."
+      ],
+      [
+        "Beau. Assez chaud dans la journée, frais la nuit; gelées possibles au petit matin.",
+        "Nuageux avec ondées possibles; giboulées en montagne. Temps frais.",
+        "Ondées en plaine, giboulées en montagne. Temps frais.",
+        "Pluie en plaine, neige en montagne. Temps frais."
+      ]
+    ],
+    [
+      [
+        "Beau ou assez beau. Journées chaudes, nuits fraîches.",
+        "Assez beau, ondées possibles. Assez chaud.",
+        "Ondées ou averses orageuses. Températures douces.",
+        "Pluie et vent. Températures douces."
+      ],
+      [
+        "Beau. Journées chaudes, nuits fraîches.",
+        "Beau ou assez beau avec parfois des averses orageuses. Chaud ou assez chaud le jour, nuits fraîches.",
+        "Pluies orageuses. Températures douces.",
+        "Pluies orageuses avec un peu de vent. Temps lourd et humide."
+      ],
+      [
+        "Beau, mais orages possibles. Très chaud le jour, chaud la nuit.",
+        "Beau, avec possibilité d'averses orageuses. Assez chaud.",
+        "Temps lourd et orages avec averses. Chaud.",
+        "Averses orageuses et vents violents. Chaud et humide."
+      ],
+      [
+        "Beau ou très beau. Chaud ou très chaud.",
+        "Beau, ondées orageuses possibles. Assez chaud.",
+        "Temps lourd et orages possibles. Assez chaud.",
+        "Orages et averses orageuses. Assez chaud."
+      ],
+      [
+        "Beau. Chaud dans la journée, assez frais la nuit.",
+        "Assez beau, mais ondées possibles en montagne. Températures douces.",
+        "Ondées et averses avec un peu de vent. Températures douces.",
+        "Pluie à tendance orageuse avec vent. Doux et humide."
+      ]
+    ],
+    [
+      [
+        "Beau ou assez beau. Chaud le jour. Gelées à craindre la nuit.",
+        "Ondées locales. Températures fraîches.",
+        "Averses. Temps frais.",
+        "Averses de pluie ou de neige. Temps froid et températures en baisses."
+      ],
+      [
+        "Beau ou assez beau. Chaleur modérée. Gelées à craindre.",
+        "Assez beau, avec possibilité d'ondées. Frais le jour et gelées locales.",
+        "Ondées en plaine, giboulées en montagne. Temps frais.",
+        "Averses orageuses et vent modéré. Temps frais."
+      ],
+      [
+        "Beau ou assez beau. Assez chaud le jour, frais la nuit; gelées possibles.",
+        "Nuages modérés; ondées et éclaircies. Assez chaud.",
+        "Nuageux, avec pluies éparses et vent modéré. Temps doux.",
+        "Pluie et parfois averses orageuses avec vents forts. Températures douces."
+      ],
+      [
+        "Beau. Chaud ou assez chaud le jour, nuits fraîches.",
+        "Ondées locales et vents faibles. Températures douces.",
+        "Pluie possible, vent modéré. Températures douces.",
+        "Pluie et vent fort. Temps doux et humide."
+      ],
+      [
+        "Beau ou modérément nuageux. Chaleur modérée le jour, nuits fraîches; gelées à craindre.",
+        "Assez beau, avec ondées locales et giboulées en montagne. Températures douces, parfois un peu fraîches.",
+        "Ondées en plaine, giboulées en montagne; vent faible. Temps frais.",
+        "Fortes pluies et vent fort, bourrasques de neige en montagne. Temps frais."
+      ]
+    ],
+    [
+      [
+        "Beau, avec tendance à la brume et au brouillard. Températures fraîches.",
+        "Assez beau. Giboulées en montagne. Froid.",
+        "Neige ou giboulées. Froid.",
+        "Neige et vent parfois violent. Froid."
+      ],
+      [
+        "Beau ou assez beau, un peu brumeux. Journées froides et gelées nocturnes.",
+        "Temps brumeux; giboulées ou neige. Froid.",
+        "Neige ou giboulées. Froid.",
+        "Giboulées, neige possible; vent modéré à assez fort. Froid."
+      ],
+      [
+        "Beau ou assez beau, parfois brumeux. Températures modérées le jour, nuits froides; gelées possibles.",
+        "Assez beau à modérément nuageux, avec ondées possibles. Températures douces.",
+        "Pluie possible, avec vent fort. Températures douces.",
+        "Pluie ou neige fondue, avec vents forts. Temps assez froid, parfois doux."
+      ],
+      [
+        "Beau ou assez beau, brumes. Températures douces ou assez douces le jour; gelées nocturnes.",
+        "Quelques nuages, ondées. Températures fraîches.",
+        "Pluie ou neige avec vent. Températures douces.",
+        "Pluie ou neige fondue, avec vent violent. Températures douces."
+      ],
+      [
+        "Beau et un peu brumeux. Températures modérées le jour; fortes gelées la nuit.",
+        "Modérément nuageux, giboulées en montagne. Froid.",
+        "Giboulées ou neige. Froid.",
+        "Pluie et bourrasques, ou neige. Froid."
+      ]
+    ]
+  ]
+}

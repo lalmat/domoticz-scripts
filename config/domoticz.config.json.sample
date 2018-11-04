@@ -1,0 +1,24 @@
+{
+  "domoticz": {
+    "api": "http://127.0.0.1",
+    "token": "",
+    "idx": {
+      "forecast": {
+        "weather": null,
+        "wind": null,
+        "result": null
+      }
+    }
+  },
+  "db": {
+    "dsn": "",
+    "user": "",
+    "pass": ""
+  },
+  "smtp": {
+    "host": "",
+    "port": "",
+    "user": "",
+    "pass": ""
+  }
+}
