@@ -1,4 +1,4 @@
 MAILTO=""
 # Sending mail of the day
-50 6 * * 1-5 /usr/bin/php /home/pi/domoticz-script/newday/mail.php
-00 9 * * 0,6 /usr/bin/php /home/pi/domoticz-script/newday/mail.php
+50 6 * * 1-5 /usr/bin/php /home/pi/domoticz-scripts/newday/mail.php
+00 9 * * 0,6 /usr/bin/php /home/pi/domoticz-scripts/newday/mail.php
