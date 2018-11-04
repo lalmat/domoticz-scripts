@@ -2,7 +2,7 @@
   "domoticz": {
     "api": "http://127.0.0.1",
     "token": "",
-    "idx": {
+    "scripts_idx": {
       "forecast": {
         "weather": null,
         "wind": null,
@@ -18,6 +18,8 @@
   "smtp": {
     "host": "",
     "port": "",
+    "username":"",
+    "usermail":"",
     "user": "",
     "pass": ""
   },
