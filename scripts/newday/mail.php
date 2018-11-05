@@ -24,7 +24,6 @@ $weather = $reply->result[0];
 $forecast = Forecast::get_forecast("fr", $wind->Direction, $weather->Barometer);
 
 $msgTemplate = file_get_contents(__DIR__."/message.tpl.html");
-$tpl = str_replace("{{prenom}}", "Mathieu", $msgTemplate);
 $tpl = str_replace("{{full_date}}", NewDay::getFullDate_FR(), $tpl);
 $tpl = str_replace("{{saints}}", NewDay::getSaintMsg_FR(), $tpl);
 $tpl = str_replace("{{sunrise}}", $reply->Sunrise, $tpl);
@@ -53,11 +52,15 @@ $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
 $mail->Username = $config->smtp->user;
 $mail->Password = $config->smtp->pass;
-$mail->setFrom($config->smtp->usermail, $config->smtp->username);
-foreach($config->users as $u)  {
-  $mail->addAddress($u->email, $u->firstname." ".$u->lastname);
-}
-$mail->isHTML(true); 
 $mail->Subject = utf8_decode('[La Maison] Une nouvelle journée commence !');
-$mail->msgHTML($tpl, __DIR__);
-$mail->send();
+$mail->setFrom($config->smtp->usermail, $config->smtp->username);
+$mail->isHTML(true); 
+
+foreach($config->users as $u)  {
+  echo "Sending mail to ".$u->prenom.PHP_EOL;
+  $tmpTpl  = str_replace("{{prenom}}", $u->prenom, $msgTemplate);
+  $tmpMail = $mail;
+  $tmpMail->addAddress($u->email, $u->firstname." ".$u->lastname);
+  $tmpMail->msgHTML($tmpTpl, __DIR__);
+  $tmpMail->send();
+}

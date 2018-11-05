@@ -1,2 +1,3 @@
 config/domoticz.config.json
 crons/cronjobs
+vendor

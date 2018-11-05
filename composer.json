@@ -1,0 +1,11 @@
+{
+  "autoload": {
+    "psr-4": {
+      "DZSRC\\": "scripts/"
+    }
+  },
+  "require": {
+    "twig/twig": "^2.0",
+    "phpmailer/phpmailer": "^6.0"
+  }
+}
