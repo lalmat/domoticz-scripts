@@ -1,4 +1,6 @@
 <?php
+namespace DZSCR\Forecast;
+
 class Forecast {
 
   public static function get_season() {

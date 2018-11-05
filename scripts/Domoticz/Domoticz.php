@@ -1,11 +1,13 @@
 <?php
+namespace DZSCR\Domoticz;
+
 class Domoticz {
   private $endpoint = "";
   private $token    = "";
   private $idx      = null;
 
   function __construct() {
-    $config = json_decode(file_get_contents(__DIR__."/../config/domoticz.config.json"));
+    $config = json_decode(file_get_contents(__DIR__."/../../config/domoticz.config.json"));
     $this->endpoint   = $config->domoticz->api;
     $this->token      = $config->domoticz->token;
     $this->scriptsIdx = $config->domoticz->scripts_idx;

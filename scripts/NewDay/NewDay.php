@@ -1,4 +1,6 @@
 <?php
+namespace DZSCR\NewDay;
+
 class NewDay {
 
   public static function getSaintMsg_FR() {
@@ -16,7 +18,7 @@ class NewDay {
     $saintAry = json_decode(file_get_contents($file), true);
     $month = date("m");
     $day   = date("j");
-    return $saintAry[$month][$day];
+    return $saintAry[$month][$day-1];
   }
 
   public static function getFullDate_FR() {

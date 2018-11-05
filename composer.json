@@ -1,7 +1,7 @@
 {
   "autoload": {
     "psr-4": {
-      "DZSRC\\": "scripts/"
+      "DZSCR\\": "./scripts/"
     }
   },
   "require": {
