@@ -8,7 +8,11 @@
         "wind": null,
         "result": null
       }
-    }
+    },
+    "owm_city": ""
+  },
+  "openWeatherMap": {
+    "token": ""
   },
   "db": {
     "dsn": "",
@@ -28,7 +32,8 @@
       "firstname": "",
       "lastname": "",
       "birth": "",
-      "email": "lallemand.mathieu@gmail.com"
+      "email": "lallemand.mathieu@gmail.com",
+      "owm_work": ""
     }
   ]
 }

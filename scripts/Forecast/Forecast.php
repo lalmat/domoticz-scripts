@@ -37,4 +37,10 @@ class Forecast {
     return $f[$lang][$s][$w][$h];
   }
 
+  public static function owm_today($key, $city) {
+    $data = file_get_contents("http://api.openweathermap.org/data/2.5/forecast/daily?id=$city&lang=fr&APPID=$key&units=metric");
+    $json = json_decode($data);
+    return $json->list[0];
+  }
+
 }

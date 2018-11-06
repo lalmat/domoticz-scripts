@@ -39,6 +39,11 @@ $tpl = str_replace("{{wind_orient}}", $wind->DirectionStr, $tpl);
 
 // Load mail config
 $config = json_decode(file_get_contents(__DIR__."/../../config/domoticz.config.json"));
+$weather  = Forecast::owm_today($config->openWeatherMap->token, $config->domoticz->owm_city);
+
+$tpl = str_replace('{{temp_max}}', $weather->temp->max, $tpl);
+$tpl = str_replace('{{temp_min}}', $weather->temp->min, $tpl);
+$tpl = str_replace('{{temp_look}}', $weather->weather[0]->description, $tpl);
 
 $mail = new PHPMailer();
 $mail->isSMTP();
