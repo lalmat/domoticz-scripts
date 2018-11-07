@@ -45,24 +45,23 @@ $tpl = str_replace('{{temp_max}}', $weather->temp->max, $tpl);
 $tpl = str_replace('{{temp_min}}', $weather->temp->min, $tpl);
 $tpl = str_replace('{{temp_look}}', $weather->weather[0]->description, $tpl);
 
-$mail = new PHPMailer();
-$mail->isSMTP();
-$mail->SMTPDebug = 0;
-$mail->Host = $config->smtp->host;
-$mail->Port = $config->smtp->port;
-$mail->SMTPSecure = 'tls';
-$mail->SMTPAuth = true;
-$mail->Username = $config->smtp->user;
-$mail->Password = $config->smtp->pass;
-$mail->Subject = utf8_decode('[La Maison] Une nouvelle journée commence !');
-$mail->setFrom($config->smtp->usermail, $config->smtp->username);
-$mail->isHTML(true); 
-
 foreach($config->users as $u)  {
   echo "Sending mail to ".$u->firstname.PHP_EOL;
+  $mail = new PHPMailer();
+  $mail->isSMTP();
+  $mail->SMTPDebug = 0;
+  $mail->Host = $config->smtp->host;
+  $mail->Port = $config->smtp->port;
+  $mail->SMTPSecure = 'tls';
+  $mail->SMTPAuth = true;
+  $mail->Username = $config->smtp->user;
+  $mail->Password = $config->smtp->pass;
+  $mail->Subject = utf8_decode('[La Maison] Une nouvelle journée commence !');
+  $mail->setFrom($config->smtp->usermail, $config->smtp->username);
+  $mail->isHTML(true); 
+
   $tmpTpl  = str_replace("{{prenom}}", $u->firstname, $tpl);
-  $tmpMail = $mail;
-  $tmpMail->addAddress($u->email, $u->firstname." ".$u->lastname);
-  $tmpMail->msgHTML($tmpTpl, __DIR__);
-  $tmpMail->send();
+  $mail->addAddress($u->email, $u->firstname." ".$u->lastname);
+  $mail->msgHTML($tmpTpl, __DIR__);
+  $mail->send();
 }
